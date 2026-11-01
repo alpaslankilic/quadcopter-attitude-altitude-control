@@ -1,0 +1,8 @@
+{
+  "verification": "PASS",
+  "scaled_ode_max_error": 1.4692761428679816E-5,
+  "rigid_body_energy_residual_J": -0.00014499831404890529,
+  "final_position_error_m": 0.0095220242024141449,
+  "peak_tilt_deg": 20.02233318334,
+  "stop_time_s": 5.078
+}

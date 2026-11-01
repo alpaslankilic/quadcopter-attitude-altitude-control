@@ -1,0 +1,109 @@
+{
+  "mass": 1.2,
+  "gravity": 9.81,
+  "inertia": [
+    0.012,
+    0.014,
+    0.023
+  ],
+  "arm": 0.23,
+  "thrustCoefficient": 1.1E-5,
+  "dragCoefficient": 1.8E-7,
+  "rotorTimeConstant": 0.025,
+  "maximumRotorSpeed": 900,
+  "linearDrag": 0.15,
+  "mixer": [
+    [
+      1.1E-5,
+      1.1E-5,
+      1.1E-5,
+      1.1E-5
+    ],
+    [
+      1.7889801564019654E-6,
+      1.7889801564019654E-6,
+      -1.7889801564019654E-6,
+      -1.7889801564019654E-6
+    ],
+    [
+      -1.7889801564019654E-6,
+      1.7889801564019654E-6,
+      1.7889801564019654E-6,
+      -1.7889801564019654E-6
+    ],
+    [
+      1.8E-7,
+      -1.8E-7,
+      1.8E-7,
+      -1.8E-7
+    ]
+  ],
+  "hoverSpeed": 517.24796234055339,
+  "positionKp": [
+    6.25,
+    6.25,
+    12
+  ],
+  "positionKd": [
+    5,
+    5,
+    6
+  ],
+  "altitudeKi": 8,
+  "angleGain": 8,
+  "rateKp": 30,
+  "rateKi": 120,
+  "rateTracking": 15,
+  "altitudeTracking": 4,
+  "goal": [
+    1,
+    0.5,
+    1.5
+  ],
+  "yawGoal": 0.3490658503988659,
+  "tiltLimit": 0.35,
+  "takeoffTime": 0.1,
+  "takeoffDuration": 1,
+  "moveTime": 1.41,
+  "moveDuration": 1.2,
+  "gustTime": 3.8819999999999997,
+  "gustDuration": 0.2,
+  "gustForce": [
+    0.8,
+    -0.5,
+    0.4
+  ],
+  "gustMoment": [
+    0.02,
+    -0.01,
+    0.005
+  ],
+  "sampleTime": 0.002,
+  "sizingDuration": 12,
+  "stopTime": 5.078,
+  "initialState": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    517.24796234055339,
+    517.24796234055339,
+    517.24796234055339,
+    517.24796234055339
+  ],
+  "initialControlState": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "modelName": "quadcopter_control"
+}
